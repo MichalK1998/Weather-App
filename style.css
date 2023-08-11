@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.container {
+    width: 400px;
+    background: rgb(6, 127, 247);
+    background: linear-gradient(165deg, rgba(6, 127, 247, 1) 33%, rgba(39, 255, 137, 1) 75%);
+    border-radius: 20px;
+    margin: 150px auto 0;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.search input {
+    width: 220px;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    color: #111;
+    box-shadow: 7px 7px 12px 0px rgba(66, 68, 90, 1);
+    background-color: #fff;
+}
+
+.search button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 20px;
+    border: none;
+    box-shadow: 7px 7px 12px 0px rgba(66, 68, 90, 1);
+    background-color: #fff;
+    outline: none;
+}
+
+.search button:hover {
+    background: rgba(39, 255, 137);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.mainContentIMG {
+    height: 180px;
+    margin: 0 auto 25px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.95;
+}
+
+.mainContentIMG img {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+}
+
+.mainContentTemperature {
+    height: 80px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #111;
+    opacity: 0.8;
+    letter-spacing: 0.3px;
+}
+
+.mainContentDestination {
+    height: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #111;
+    opacity: 0.8;
+    letter-spacing: 0.3px;
+}
+
+.additionalInformation {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.humidity {
+
+    width: 100px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #111;
+    opacity: 0.9;
+    margin-top: 20px;
+    letter-spacing: 0.3px;
+}
+
+.humidity img {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0.95);
+
+}
+
+.windSpeed {
+    width: 100px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #111;
+    opacity: 0.9;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+}
+
+.windSpeed img {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0.95);
+}
+
+.mainContent,
+.additionalInformation {
+    display: none;
+}
+
+.error {
+    color: #cc0000;
+    margin-left: 77px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    display: none;
+}
+

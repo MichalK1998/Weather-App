@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Weather App</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="search">
+			<div class="searchText">
+				<input type="text" placeholder="Enter destination">
+			</div>
+			<div class="searchbutton">
+				<button type="button"><i class="icon-search"></i></button>
+			</div>
+		</div>
+		<div class="error">Invalid destination!</div>
+		<div class="mainContent">
+			<div class="mainContentIMG">
+				<img src="img/sun.png">
+			</div>
+			<div class="mainContentTemperature">
+				290℃
+			</div>
+			<div class="mainContentDestination">
+				Warsaw
+			</div>
+		</div>
+		<div class="additionalInformation">
+			<div class="humidity">
+				<img src="img/humidity.png" title="Humidity">
+				<p>18%</p>
+			</div>
+			<div class="windSpeed">
+				<img src="img/wind.png" title="Wind Speed">
+				<p>18 km/h</p>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="functionality.js"></script>
+</body>
+
+</html>
